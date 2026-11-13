@@ -1,0 +1,198 @@
+{
+  "total_candidates": 3,
+  "total_jobs": 3,
+  "average_match": 75.56,
+  "results": [
+    {
+      "candidate_id": 1,
+      "name": "ARJUN KUMAR",
+      "email": "arjun.kumar.test@example.com",
+      "phone": "9876543210",
+      "resume_file": "ARJUN KUMAR.pdf",
+      "job_id": 1,
+      "job": "Java Developer",
+      "matched": [
+        "Java",
+        "SQL",
+        "MySQL",
+        "HTML",
+        "CSS"
+      ],
+      "missing": [],
+      "score": 100.0,
+      "status": "Calculated"
+    },
+    {
+      "candidate_id": 1,
+      "name": "ARJUN KUMAR",
+      "email": "arjun.kumar.test@example.com",
+      "phone": "9876543210",
+      "resume_file": "ARJUN KUMAR.pdf",
+      "job_id": 2,
+      "job": "Python Data Analyst",
+      "matched": [
+        "Python",
+        "SQL",
+        "MySQL"
+      ],
+      "missing": [],
+      "score": 100.0,
+      "status": "Calculated"
+    },
+    {
+      "candidate_id": 1,
+      "name": "ARJUN KUMAR",
+      "email": "arjun.kumar.test@example.com",
+      "phone": "9876543210",
+      "resume_file": "ARJUN KUMAR.pdf",
+      "job_id": 3,
+      "job": "Full Stack Developer",
+      "matched": [
+        "Java",
+        "HTML",
+        "CSS",
+        "SQL"
+      ],
+      "missing": [
+        "JavaScript"
+      ],
+      "score": 80.0,
+      "status": "Calculated"
+    },
+    {
+      "candidate_id": 2,
+      "name": "PADIGERI MANASA",
+      "email": "manasapadigeri396@gmail.com",
+      "phone": "7013917179",
+      "resume_file": "Resume1.pdf",
+      "job_id": 1,
+      "job": "Java Developer",
+      "matched": [
+        "Java",
+        "SQL",
+        "MySQL"
+      ],
+      "missing": [
+        "HTML",
+        "CSS"
+      ],
+      "score": 60.0,
+      "status": "Calculated"
+    },
+    {
+      "candidate_id": 2,
+      "name": "PADIGERI MANASA",
+      "email": "manasapadigeri396@gmail.com",
+      "phone": "7013917179",
+      "resume_file": "Resume1.pdf",
+      "job_id": 2,
+      "job": "Python Data Analyst",
+      "matched": [
+        "Python",
+        "SQL",
+        "MySQL"
+      ],
+      "missing": [],
+      "score": 100.0,
+      "status": "Calculated"
+    },
+    {
+      "candidate_id": 2,
+      "name": "PADIGERI MANASA",
+      "email": "manasapadigeri396@gmail.com",
+      "phone": "7013917179",
+      "resume_file": "Resume1.pdf",
+      "job_id": 3,
+      "job": "Full Stack Developer",
+      "matched": [
+        "Java",
+        "SQL"
+      ],
+      "missing": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "score": 40.0,
+      "status": "Calculated"
+    },
+    {
+      "candidate_id": 3,
+      "name": "SHAIK MAHEK",
+      "email": "shaikmahek1262@gmail.com",
+      "phone": "",
+      "resume_file": "sample_resume.pdf",
+      "job_id": 1,
+      "job": "Java Developer",
+      "matched": [
+        "Java",
+        "SQL",
+        "MySQL"
+      ],
+      "missing": [
+        "HTML",
+        "CSS"
+      ],
+      "score": 60.0,
+      "status": "Calculated"
+    },
+    {
+      "candidate_id": 3,
+      "name": "SHAIK MAHEK",
+      "email": "shaikmahek1262@gmail.com",
+      "phone": "",
+      "resume_file": "sample_resume.pdf",
+      "job_id": 2,
+      "job": "Python Data Analyst",
+      "matched": [
+        "Python",
+        "SQL",
+        "MySQL"
+      ],
+      "missing": [],
+      "score": 100.0,
+      "status": "Calculated"
+    },
+    {
+      "candidate_id": 3,
+      "name": "SHAIK MAHEK",
+      "email": "shaikmahek1262@gmail.com",
+      "phone": "",
+      "resume_file": "sample_resume.pdf",
+      "job_id": 3,
+      "job": "Full Stack Developer",
+      "matched": [
+        "Java",
+        "SQL"
+      ],
+      "missing": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "score": 40.0,
+      "status": "Calculated"
+    }
+  ],
+  "jobs": [
+    {
+      "job_id": 1,
+      "job_title": "Java Developer",
+      "job_description": "Build and maintain Java applications backed by relational databases.",
+      "required_skills": "Java, SQL, MySQL, HTML, CSS"
+    },
+    {
+      "job_id": 2,
+      "job_title": "Python Data Analyst",
+      "job_description": "Analyse data with Python and SQL and report insights.",
+      "required_skills": "Python, SQL, MySQL"
+    },
+    {
+      "job_id": 3,
+      "job_title": "Full Stack Developer",
+      "job_description": "Develop web front ends and Java back-end services.",
+      "required_skills": "Java, JavaScript, HTML, CSS, SQL"
+    }
+  ],
+  "generated_at": "2026-11-11"
+}

@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeIQ | Recruiter Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <h2>Resume<span>IQ</span></h2>
+        <p class="side-label">MAIN MENU</p>
+        <a class="active" href="#">Dashboard</a>
+        <a href="#candidates">Candidates</a>
+        <a href="#jobs">Job Openings</a>
+        <a href="#reports">Reports</a>
+
+        <div class="sidebar-bottom">
+            <p>Smart Hiring, Made Simple.</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="topbar">
+            <div>
+                <h1>Recruiter Dashboard</h1>
+                <p>Welcome back! Here's your recruitment overview.</p>
+            </div>
+            <div class="profile">
+                <div class="avatar">R</div>
+                <span>Recruiter</span>
+                <small id="dataSource" class="data-source"></small>
+            </div>
+        </header>
+
+        <section class="stats">
+            <div class="stat-card">
+                <p>Total Candidates</p>
+                <h2 id="totalCandidates">0</h2>
+                <span>Resumes analyzed</span>
+            </div>
+
+            <div class="stat-card">
+                <p>Job Openings</p>
+                <h2 id="totalJobs">0</h2>
+                <span>Available positions</span>
+            </div>
+
+            <div class="stat-card">
+                <p>Average Match</p>
+                <h2 id="averageMatch">0%</h2>
+                <span>Job-fit percentage</span>
+            </div>
+        </section>
+
+        <section class="panel" id="candidates">
+            <div class="section-heading">
+                <div>
+                    <h2>Candidate Results</h2>
+                    <p>Review candidate skills and job-fit scores.</p>
+                </div>
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search candidates..."
+                >
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Candidate</th>
+                            <th>Job Role</th>
+                            <th>Matched Skills</th>
+                            <th>Missing Skills</th>
+                            <th>Job Fit</th>
+                        </tr>
+                    </thead>
+                    <tbody id="candidateTable">
+                    </tbody>
+                </table>
+            </div>
+
+            <p id="emptyMessage" class="empty-message">
+                Loading candidate results...
+            </p>
+        </section>
+
+        <section class="panel" id="jobs">
+            <div class="section-heading">
+                <div>
+                    <h2>Job Openings</h2>
+                    <p>Current positions in your recruitment system.</p>
+                </div>
+            </div>
+
+            <div id="jobList" class="job-list"></div>
+        </section>
+
+        <footer id="reports">
+            ResumeIQ — Intelligent Resume Screening System
+        </footer>
+    </main>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
